@@ -1,6 +1,7 @@
 # Middleman-ebook
 
-A middleman project template for an HTML ebook or a documentation site that needs runnable examples. Has runnable coce examples live tests using using mocha + chai and a generated Table of Contents.
+A middleman project template for an HTML ebook or a documentation site that needs runnable examples. 
+Has runnable code examples, live tests using using mocha + chai, and a generated Table of Contents.
 
 ![Screenshot](https://raw.github.com/k2052/middleman-ebook/master/screenshot.png)
 
