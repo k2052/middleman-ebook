@@ -1,0 +1,25 @@
+.toc
+  span.toc-toggle
+    i.icon-menu
+
+  header
+    h1 Testy The Book
+
+  nav.toc
+    ul
+      - @table_of_contents.each_with_index do |chapter, index|
+        - link_class = 'toc-link'
+        - li_class   = ' chapter'
+        - li_class   << ' first-chapter' if index == 0
+        - link = "/#{chapter.title.parameterize}"
+        - link = chapter.link if chapter.link
+        - link_class << ' active' if current_page.url == link or current_page.url == "#{link}/"
+        li class=li_class
+          a class=link_class href=link == chapter.title
+      
+        - if chapter.sections.count > 0
+          ul
+            - chapter.sections.each do |section|
+              - link_section = link + "#" + "#{section.title.parameterize}"
+              li
+                a class="section-title #{section.title.parameterize}" href=link_section == section.title

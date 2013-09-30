@@ -1,0 +1,88 @@
+.toc-toggle:hover 
+  -webkit-animation-name: ffadeInTOC
+  -moz-animation-name: fadeInTOC
+  -o-animation-name: fadeInTOC
+  animation-name: fadeInTOC
+
+.toc
+  position: fixed
+  background: $toc-background
+  z-index: 99999
+  width: 220px
+  left: -224px
+  height: 100%
+  transition: left 0.3s ease-in-out 0s
+  color: $toc-color
+
+.toc.open
+  left: 0px
+  -webkit-animation-name: fadeInLeft
+  -moz-animation-name: fadeInLeft
+  -o-animation-name: fadeInLeft
+  animation-name: fadeInLeft
+
+  .toc-toggle 
+    opacity: 1.0
+
+.toc-toggle
+  font-weight: normal
+  font-size: rem(35px)
+  display: block
+  position: absolute
+  background: $toc-toggle-background
+  float: right
+  right: -48px
+  top: 0px
+  cursor: pointer
+  text-align: center
+  color: $toc-toggle-color
+  opacity: 0.8
+  font-family: "fontello" 
+  width: 48px
+  height: 58px
+
+.toc
+  header
+    margin-top: 18px
+
+    h1
+      text-align: center
+      color: $toc-color
+      font-size: rem(15px)
+
+  nav
+    .first-chapter
+      margin-top: 26px
+
+    ul, li
+      list-style-type: none
+      padding: 0
+
+    .chapter
+      a
+        background: $toc-chapter-a-background
+        box-shadow: $toc-chapter-a-box-shadow
+        color: $toc-chapter-a-color
+        margin-right: -0.25rem
+        opacity: 0.8
+
+      a:hover, a.active, a.active:hover
+        color: $toc-chapter-a-hover-color
+        background: white
+        opacity: 1.0
+
+    a
+      text-decoration: none
+      transition: all 0.2s ease-in-out 0s
+      color: $toc-a-color
+      display: block
+      font-size: 90%
+      padding: 0.625rem 1.25rem
+
+    a:hover, a.active
+      background: $toc-a-hover-background
+
+    .section-title
+      background: $toc-section-background
+      font-size: 90%
+      padding: 0.625rem 0.625rem 0.625rem 2.5rem

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2012 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="menu" unicode="&#xe803;" d="M650 400q22 0 36-15t14-35-15-35-35-15l-600 0q-20 0-35 15t-15 35 14 35 36 15l600 0z m-600 100q-20 0-35 15t-15 35 14 35 36 15l600 0q22 0 36-15t14-35-15-35-35-15l-600 0z m600-300q22 0 36-15t14-35-15-35-35-15l-600 0q-20 0-35 15t-15 35 14 35 36 15l600 0z" horiz-adv-x="700" />
+<glyph glyph-name="list" unicode="&#xe802;" d="M100 200q20 0 35-15t15-35-15-35-35-15l-50 0q-20 0-35 15t-15 35 14 35 36 15l50 0z m0 200q20 0 35-15t15-35-15-35-35-15l-50 0q-20 0-35 15t-15 35 14 35 36 15l50 0z m0 200q20 0 35-15t15-35-15-35-35-15l-50 0q-20 0-35 15t-15 35 14 35 36 15l50 0z m200-100q-20 0-35 15t-15 35 15 35 35 15l350 0q22 0 36-15t14-35-15-35-35-15l-350 0z m350-100q22 0 36-15t14-35-15-35-35-15l-350 0q-20 0-35 15t-15 35 15 35 35 15l350 0z m0-200q22 0 36-15t14-35-15-35-35-15l-350 0q-20 0-35 15t-15 35 15 35 35 15l350 0z" horiz-adv-x="700" />
+<glyph glyph-name="doc-text-inv" unicode="&#xe801;" d="M600 800q42 0 71-29t29-71l0-700q0-40-29-70t-71-30l-500 0q-40 0-70 30t-30 70l0 700q0 42 30 71t70 29l500 0z m-460-208l0-88 420 0 0 88-420 0z m420-480l0 88-420 0 0-88 420 0z m0 196l0 90-418 0 0-90 418 0z" horiz-adv-x="700" />
+<glyph glyph-name="doc-text" unicode="&#xe800;" d="M212 308l0 90 280 0 0-90-280 0z m388 492q42 0 71-29t29-71l0-700q0-40-29-70t-71-30l-500 0q-40 0-70 30t-30 70l0 700q0 42 30 71t70 29l500 0z m0-800l0 700-500 0 0-700 500 0z m-110 592l0-88-280 0 0 88 280 0z m0-392l0-88-280 0 0 88 280 0z" horiz-adv-x="700" />
+</font>
+</defs>
+</svg>

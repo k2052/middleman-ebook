@@ -1,0 +1,12 @@
+doctype 5
+html lang="en" 
+  head           
+    meta charset="UTF-8"   
+    title An Example Ebook With Runnable Code Samples | JS Wat?
+    link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,300,300italic' rel='stylesheet' type='text/css'
+    == stylesheet_link_tag :application
+  body
+    == partial "partials/toc"
+    .container
+	    .page== yield
+    == javascript_include_tag :application

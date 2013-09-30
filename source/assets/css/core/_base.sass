@@ -1,0 +1,95 @@
+// *************************************
+//
+//   Base
+//   -> Base-level tags (body, p, etc.)
+//
+// *************************************
+
+html
+  font-size: rem($base-fontSize)
+  background: $base-background
+
+body
+  color: $base-color
+  font-family: $base-fontFamily
+  font-size: 100%
+  line-height: $base-lineHeight
+
+// -------------------------------------
+//   Block Content
+// -------------------------------------
+
+p
+  font-size: rem($base-fontSize)
+  margin: 26px 0px
+
+// -------------------------------------
+//   Inline Content
+// -------------------------------------
+
+a
+  color: $base-link-color
+  text-decoration: underline
+  font-weight: 300 
+  outline: 0
+  &:hover,
+  &:focus
+    text-decoration: none
+
+h1, h2, h3, h4, h5, h6
+  color: $base-heading-color
+  font-weight: 700
+  text-transform: uppercase
+  line-height: 1em
+  margin-top: 50px
+
+h1
+  margin: 0
+  text-align: center
+  font-size: rem(26px)
+
+h2 
+  font-size: rem(18px)
+
+hr 
+  height: $base-hr-height
+  background: $base-hr-background
+  border: $base-hr-border
+
+blockquote 
+  border-left: 5px solid $base-blockquote-border-color
+  margin-left: 0
+  padding: 1px 0 1px 1em
+
+blockquote p 
+  font-family: $base-monospace-family
+  font-size: rem(14px) 
+  line-height: rem(19px)
+  color: $base-blockquote-color
+  margin: 10px 0 0
+  white-space: pre-wrap
+
+code
+  font-family: $base-monospace-family
+  font-size: rem(12px)
+  line-height: rem(20px)
+  display: inline-block
+  border: 1px solid $base-border-color
+  background: $base-code-background
+  color: $base-code-color
+  padding: 0 5px
+
+.page > pre > code
+  margin: 0
+  width: 608px
+  padding: 10px 15px
+  background: $base-pre-background
+  box-shadow: $base-pre-boxShadow
+  overflow-x: auto
+
+b, strong
+  font-weight: 700
+
+em 
+  font-weight: 300
+  font-style: italic
