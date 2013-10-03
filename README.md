@@ -36,3 +36,4 @@ Copyright 2013 K-2052, under the [MIT licence](LICENSE).
 
 The theme for this is heavily  inspired by [Docco's](http://jashkenas.github.io/docco/) linear theme
 Runnable code accomplished using a modification of [executr](https://github.com/HubSpot/executr)
+List, Menu and Doc-text icons from [Entypo](http://www.entypo.com/)
