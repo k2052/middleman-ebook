@@ -10,8 +10,9 @@ require "sassy-buttons"
 set :markdown_engine, :kramdown
 
 # Set our custom renderer to be used by tilt
+::Tilt.mappings.delete('md') # probably not the best idea to delete mappings but it works
 ::MiddlemanKramdownExecutr.middleman_app = self
-Tilt.prefer(::Middleman::Renderers::KramdownExecutrTemplate, ".md")
+::Tilt.register(::Middleman::Renderers::KramdownExecutrTemplate, ".md")
 
 # Require slim
 require 'slim'
@@ -40,3 +41,6 @@ set :layout, :main
 
 # Set a table of contents hash
 @table_of_contents = data['toc']
+
+require "lib/toc_helpers"
+helpers TocHelpers

@@ -1,0 +1,5 @@
+.pagination
+	- unless current_toc_pos_first?()
+		a.button.prev-button href==prev_chapter_link() Previous Chapter
+	- unless current_toc_pos_last?()
+		a.button.next-button href==next_chapter_link() Next Chapter

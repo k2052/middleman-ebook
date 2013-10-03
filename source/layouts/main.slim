@@ -8,5 +8,7 @@ html lang="en"
   body
     == partial "partials/toc"
     .container
-	    .page== yield
+	    .page
+        == yield
+        == partial "partials/pagination"
     == javascript_include_tag :application
