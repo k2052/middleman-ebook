@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
+
+# Server
+gem "puma"
 
 # For serving up builds
 gem "rack-contrib"
