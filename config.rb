@@ -20,6 +20,9 @@ set :slim, :pretty => true
 # Enable pretty URLS
 activate :directory_indexes
 
+# Set Build Dir
+set :build_dir, "tmp"
+
 # Append sprockets paths
 sprockets.append_path File.join "#{root}", "source/assets/js"
 sprockets.append_path File.join "#{root}", "source/assets/css"
