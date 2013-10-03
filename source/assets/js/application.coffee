@@ -4,13 +4,14 @@
 #= require "mocha/mocha"
 #= require "codemirror/lib/codemirror"
 #= require "codemirror/mode/coffeescript/coffeescript"
+#= require "codemirror/mode/javascript/javascript"
 #= require "executr"
 
 $(document).ready ->
   $('body').executr
-	  codeSelector: 'code.language-coffeescript'
-	  codeMirrorOptions: 
-	  	theme: "github"
+    codeSelector: 'code.executable'
+    codeMirrorOptions: 
+      theme: "github"
 
   $toc = $('.toc')
   $('.toc-toggle').click ->
